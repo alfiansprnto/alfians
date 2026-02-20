@@ -243,7 +243,7 @@ export default function App() {
               transition={{ duration: 0.8 }}
             >
               <Heart className="mx-auto text-[#5a5a40] mb-6 animate-float" size={32} fill="currentColor" />
-              <h2 className="text-5xl md:text-8xl font-serif text-[#2c2c2c] mb-6">Alfian & Ulul</h2>
+              <h2 className="text-5xl md:text-8xl font-serif text-[#2c2c2c] mb-6">Alfian Suprianto & Ni'ma Ulul Mustafida</h2>
               <p className="text-xl md:text-2xl font-serif italic text-[#5a5a40]">Save the Date</p>
               <div className="mt-8 flex flex-col md:flex-row items-center justify-center gap-4 md:gap-12 text-[#2c2c2c]">
                 <div className="flex items-center gap-2">
@@ -252,7 +252,7 @@ export default function App() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock size={20} className="text-[#5a5a40]" />
-                  <span className="font-serif text-lg">08:00 AM - Finish</span>
+                  <span className="font-serif text-lg">08:00 WIB - Finish</span>
                 </div>
               </div>
             </motion.div>
@@ -281,10 +281,10 @@ export default function App() {
                 <div className="w-16 h-16 bg-[#f5f5f0] rounded-full flex items-center justify-center mx-auto text-[#5a5a40]">
                   <Heart size={28} />
                 </div>
-                <h3 className="text-3xl font-serif">Wedding Ceremony</h3>
+                <h3 className="text-3xl font-serif">Akad Nikah</h3>
                 <div className="space-y-2 text-[#4a4a4a]">
-                  <p className="font-medium">St. Mary's Cathedral</p>
-                  <p>123 Grace Avenue, San Francisco, CA</p>
+                  <p className="font-medium">Kediaman Mempelai Perempuan</p>
+                  <p>Panjer RT </p>
                   <p className="italic">06:00 PM - 07:30 PM</p>
                 </div>
                 <button className="inline-flex items-center gap-2 text-[#5a5a40] font-serif italic hover:underline">

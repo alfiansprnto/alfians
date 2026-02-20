@@ -116,7 +116,7 @@ export default function App() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   
   // Placeholder Wedding Date: December 31, 2026 (Future date relative to Feb 2026)
-  const weddingDate = new Date('2026-12-31T18:00:00');
+  const weddingDate = new Date('2026-11-01T08:00:00');
 
   const handleOpen = () => {
     setIsOpened(true);
@@ -204,7 +204,7 @@ export default function App() {
             >
               <span className="text-[#5a5a40] font-serif italic text-xl mb-4 block">The Wedding of</span>
               <h1 className="text-6xl md:text-8xl font-serif text-[#2c2c2c] mb-8 leading-tight">
-                Julian <br className="md:hidden" /> & <br className="md:hidden" /> Elena
+                Alfian <br className="md:hidden" /> & <br className="md:hidden" /> Ulul
               </h1>
               
               <button 
@@ -243,16 +243,16 @@ export default function App() {
               transition={{ duration: 0.8 }}
             >
               <Heart className="mx-auto text-[#5a5a40] mb-6 animate-float" size={32} fill="currentColor" />
-              <h2 className="text-5xl md:text-8xl font-serif text-[#2c2c2c] mb-6">Julian & Elena</h2>
+              <h2 className="text-5xl md:text-8xl font-serif text-[#2c2c2c] mb-6">Alfian & Ulul</h2>
               <p className="text-xl md:text-2xl font-serif italic text-[#5a5a40]">Save the Date</p>
               <div className="mt-8 flex flex-col md:flex-row items-center justify-center gap-4 md:gap-12 text-[#2c2c2c]">
                 <div className="flex items-center gap-2">
                   <Calendar size={20} className="text-[#5a5a40]" />
-                  <span className="font-serif text-lg">Thursday, December 31, 2026</span>
+                  <span className="font-serif text-lg">Minggu, November 01, 2026</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock size={20} className="text-[#5a5a40]" />
-                  <span className="font-serif text-lg">06:00 PM - Finish</span>
+                  <span className="font-serif text-lg">08:00 AM - Finish</span>
                 </div>
               </div>
             </motion.div>
